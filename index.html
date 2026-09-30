@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Te amo, mãe</title>
+<style>
+  :root{
+    --bg:#ffe4ec; --text:#5a1a33; --accent:#d6336c;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){--bg:#2a0e20;--text:#ffe9f1;--accent:#ff5c93}
+  }
+  :root[data-theme="dark"]{--bg:#2a0e20;--text:#ffe9f1;--accent:#ff5c93}
+  html,body{height:100%;margin:0}
+  body{
+    background:var(--bg);color:var(--text);
+    font-family:Georgia,serif;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;padding:24px;
+  }
+  h1{font-size:clamp(2.2rem,9vw,3.5rem);color:var(--accent);margin:0 0 12px}
+  p{font-size:1.2rem;max-width:420px;margin:0}
+  .coracao{font-size:4rem;color:var(--accent);margin-bottom:8px}
+</style>
+</head>
+<body>
+  <div class="coracao">♥</div>
+  <h1>Te amo, mãe</h1>
+  <p>Obrigada por todo o seu carinho, cuidado e amor. Você é muito importante para mim.</p>
+</body>
+</html>
